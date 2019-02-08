@@ -65,7 +65,7 @@ public class SalaryCalculator
 					hours = 40;
 				}
 				
-				label4.setText("Annual Salary: $" + hours*rate*52);
+				label4.setText("Annual Salary: $" + hours*rate*52 + "0");
 			}
 		});
 		
